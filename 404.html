@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name=viewport>
+<meta content="ie=edge" http-equiv=x-ua-compatible>
+<link href="https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i" rel=stylesheet>
+<link href="css/404.css" rel="stylesheet">
+<link href="media/favicon.ico" rel="icon" type="image/x-icon">
+<title>404 Error - Pages not found</title>
+<body onload=snackbars()><audio id=error src=media/404.mp3 (ERROR SOUND FOR 404)></audio>
+  <h1 class=four>404</h1>
+  <p>Redirecting in <span id="countdowntimer">5</span> Seconds</p>
+  <script>
+    var timeleft = 5, //Redirect time value
+      downloadTimer = setInterval(function() {
+        timeleft--, document.getElementById("countdowntimer").textContent = timeleft, timeleft <= 0 && clearInterval(downloadTimer)
+      }, 1e3);
+    window.onload = function() {
+      document.getElementById("error").play()
+    }, setTimeout(function() {
+      window.location.href = "index.html" //Redirect location
+    }, 5e3)
+  </script>
+  <style>html{font-family:'Product Sans',Arial,sans-serif;text-align:center;background-color:#4285f4}.four{font-size:200px;text-shadow:0 19px 38px rgba(0,0,0,.3),0 15px 12px rgba(0,0,0,.22);color:#fff}p{font-size:50px}</style>

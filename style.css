@@ -1,0 +1,46 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
+.gfont{
+  font-family: 'Product Sans', Arial, sans-serif;
+}
+.afont{
+  font-family: 'Circular', Arial, sans-serif;
+}
+.material-icons.md-50 {
+  font-size: 50px;
+}
+.material-icons.md-60 {
+  font-size: 60px;
+}
+.material-icons.md-70 {
+  font-size: 70px;
+}
+.material-icons.md-80 {
+  font-size: 80px;
+}
+.material-icons.md-100 {
+  font-size: 100px;
+}
+@font-face {
+  font-family: "Circular";
+  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.eot");
+  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.eot?#iefix") format("embedded-opentype"), url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.woff") format("woff"), url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+::-moz-selection {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+  background-color: HIGHLIGHT COLOR;
+}
+
+::selection {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+  background-color: HIGHLIGHT COLOR;
+}
+@media screen and (max-width: 800px) {
+  .wow.nomobile {
+    animation-name: none !important;
+    visibility: visible !important;
+  }
+}
