@@ -3,6 +3,18 @@
 <meta charset=utf-8>
 <meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name=viewport>
 <meta content="ie=edge" http-equiv=x-ua-compatible>
+	  <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "YOUR_APP_ID",
+      autoRegister: false,
+      notifyButton: {
+        enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
 <link href=media/favicon.ico rel=icon type=image/x-icon>
 <meta content=yes name=apple-mobile-web-app-capable>
 <title>A DAY B DAY CONCEPT TEST</title>
