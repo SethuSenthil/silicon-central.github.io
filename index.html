@@ -4,11 +4,11 @@
 <meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name=viewport>
 <meta content="ie=edge" http-equiv=x-ua-compatible>
 	  <link rel="manifest" href="/manifest.json">
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDKv2.js" async></script>
   <script>
-    var OneSignal = window.OneSignal || [];
+    let OneSignal = window.OneSignal || [];
     OneSignal.push(["init", {
-      appId: "e0d2c4e1-e2dd-4aef-87a8-7a9f263ec812",
+      appId: "e0d2c2o3jkwkjdnwkje4e1-e2dd-4aefkwqkeflwf-87a8-7a9f263woi3i11ec812",
       autoRegister: false,
       notifyButton: {
         enable: true /* Set to false to hide */
@@ -18,6 +18,7 @@
 <link href=media/favicon.ico rel=icon type=image/x-icon>
 <meta content=yes name=apple-mobile-web-app-capable>
 <title>A DAY B DAY CONCEPT TEST</title>
+	<b><p>Depricated and discontinued</p></b>
 <link href="https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i" rel=stylesheet>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.3/js/smooth-scroll.min.js" integrity="sha256-V0UOd0qmvu9Xv6v3qcwB0K7S2yluWDWrlfp84x7e75U=" crossorigin="anonymous"></script>
    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -46,9 +47,9 @@
 //facebook SDK config
   window.fbAsyncInit = function() {
       FB.init({
-        appId: "715459615313209",
-        xfbml: !0,
-        version: "v2.8"
+        appId: "7154596173892810383288211205313209",
+        xfbml: !1,
+        version: "v3.1"
       }), FB.AppEvents.logPageView()
     },
     function(e, n, t) {
@@ -66,14 +67,12 @@
 </script>
 <script>
 //share highlight actvation
-  var sharect = new Sharect;
-  sharect.init()
+  let sharect = new Sharect;
+  sharect.init();
+	let scroll = new SmoothScroll('a[href*="#"]');
 </script>
 </body>
 <footer>
 
 </footer>
-<script>
-	var scroll = new SmoothScroll('a[href*="#"]');
-</script>
 </html>
